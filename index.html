@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+     <style>
+        table{
+            border-collapse: collapse;
+            width: 90%;
+            font-size: 18px;
+        }
+        #first{
+            background-color: rgb(178, 201, 223);
+            width: 80%;
+        }
+        #second{
+            background-color: rgb(191, 232, 185);
+            width: 70%;
+            margin-bottom: 80px;
+        }
+        #one{
+            background-color: rgb(178, 201, 223);
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: rgb(191, 232, 185);
+        }
+        span{
+            text-decoration: underline;
+        }
+         h2{
+            font-size: 25px;
+            text-align: center;
+        } 
+            
+        p{
+            margin-top: 80px;
+            margin-left: 100px ;
+            text-align: center;
+            font-size: 25px;
+        }
+        
+        div{
+         
+            display: flex;
+            flex-direction: row;
+          
+        }
+
+        #mid{
+            margin-left: 430px; 
+        }
+        #id{
+            display: flex;    
+        }
+        #xyz{
+            margin-top: 20px;
+        }
+        h3{
+            margin-left: 70px;
+            font-size: 20px;
+        }
+        img{
+            margin-top: 30px;
+            margin-left: 100px;
+            
+        }
+
+@media screen and (max-width: 1024px) {
+    table {
+        width: 95%;
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 18px;
+    }
+    th, td {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+    th, td {
+        padding: 6px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img {
+        width: 80px;
+    }
+}
+
+
+    </style> 
+</head>
+<body> 
+     <div class="id">
+        <div class="abc">
+        <img src="./download.jpg" alt="">
+        </div>
+        <div class="xyz">
+        <p>
+        
+        Shri Sant Gajanan Maharaj College of Engineering,Shegaon
+        <br> 
+        Department of computer science and engineering
+        <br> <br><span>Session 2024-25(Spring)</span>
+        </p>
+        </div>
+    </div>
+    <h2>Time-Table</h2>
+    <div>
+        <h3>Class Room: B1<br> Class: 2R</h3>
+        <h3 id="mid"><br>Semester - IV</h3>
+    </div>
+        
+
+    <center>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>11.00AM<br>12.00PM</th>
+            <th>12.00PM<br>01.00PM</th>
+            <th>01.00PM<br>01.15PM</th>
+            <th>01.15PM<br>02.15PM</th>
+            <th>02.15PM<br>03.15PM</th>
+            <th>03.15PM<br>03.45PM</th>
+            <th>03.45PM<br>04.45PM</th>
+            <th>04.45PM<br>05.45PM</th>
+        </tr>
+        <tr>
+            <td>Mon</td>
+            <td>TOC<br>(CMM)B1</td>
+            <td>DCN<br>(KPS)B1</td>
+            <td rowspan="5">B<br>R<br>E<br>A<br>K</td>
+            <td colspan="2">OS(A)/DCN(B)/M&ALP(C)/CSKILL(D)<br>PKB/KPS/RSM/SBP</td>
+            <td rowspan="5">R<br>E<br>C<br>E<br>S<br>S</td>
+            <td colspan="2">Skill Development<br>Program</td>
+        </tr>
+        <tr>
+            <td>Tue</td>
+            <td>AI<br>(RAZ)B1</td>
+            <td>M&ALP<br>(RSM)B1</td>
+            <td>OS<br>(PKB)B1</td>
+            <td>DCN<br>(KPS)B1</td>
+            <td>TOC<br>(CMM)B1</td>
+            <td>Skill Development<br>Program</td>
+        </tr>
+        <tr>
+            <td>Wed</td>
+            <td>AI<br>(RAZ)B1</td>
+            <td>M&ALP<br>(RSM)B1</td>
+            <td colspan="2">OS(B)/DCN(C)/M&ALP(D)/CSKILL(A)<br>PKB/KPS/RSM/SBP</td>
+            <td>OS<br>(PKB)B1</td>
+            <td>TOC<br>(CMM)B1</td>
+        </tr>
+        <tr>
+            <td>Thu</td>
+            <td>AI<br>(RAZ)B1</td>
+            <td>M&ALP<br>(RSM)B1</td>
+            <td colspan="2">OS(C)/DCN(D)/M&ALP(A)/CSKILL(B)<br>PKB/KPS/RSM/SBP</td>
+            <td>OS<br>(PKB)B1</td>
+            <td>ENVS<br>(RMK)B1</td>
+        </tr>
+        <tr>
+            <td>Fri</td>
+            <td>DCN<br>(KPS)B1</td>
+            <td>ENVS<br>(RMK)B1</td>
+            <td colspan="2">OS(A)/DCN(B)/M&ALP(D)/CSKILL(D)<br>PKB/KPS/RSM/SBP</td>
+            <td>TOC<br>(CMM)B1</td>
+            <td>Skill Development<br>Program</td>
+        </tr>
+        
+        <tr>
+            <th>Day</th>
+            <th>08.30AM<br>09.30AM</th>
+            <th>09.30AM<br>10.30AM</th>
+            <th>10.30AM<br>10.45AM</th>
+            <th>10.45AM<br>11.45AM</th>
+            <th>11.45AM<br>12.45AM</th>
+        </tr>
+        <tr>
+            <td>Sat</td>
+            <td colspan="2">Skill Development<br>Program</td>
+            <td>BREAK</td>
+            <td colspan="2">Skill Development<br>Program</td>
+        </tr>
+       
+    </table>
+</center>
+<h3>Subject and Code:</h3>
+<center>
+<table id="first">
+    <tr>
+        <th id="one">Code</th>
+        <th id="one">Name of Subject (Full Name)</th>
+        <th id="one">Name of Faculty</th>
+    </tr>
+    <tr>
+        <td>4KSO1</td>
+        <td>Artificial Intelligence</td>
+        <td>Dr. R. A. Zamare</td>
+    </tr>
+    <tr>
+        <td>4KSO2</td>
+        <td>Data Communication & Networking</td>
+        <td>Prof. Ms. K. P. Sable</td>
+    </tr>
+    <tr>
+        <td>4KSO3</td>
+        <td>Operating System</td>
+        <td>Dr. P. K. Bharne</td>
+    </tr>
+    <tr>
+        <td>4KSO4</td>
+        <td>Microprocessor & Assembly Language Programming</td>
+        <td>Dr. R. s. Mahamune</td>
+    </tr>
+    <tr>
+        <td>4KSO5</td>
+        <td>Theory of Computation</td>
+        <td>Prof. c. M. Mankar</td>
+    </tr>
+    <tr>
+        <td>4KSO6</td>
+        <td>Environmental Studies</td>
+        <td>Dr. R. M. Kharate</td>
+    </tr>
+
+</table>
+</center>
+<h3>Practical:</h3>
+<center>
+    <table id="second">
+        <tr>
+            <th>Code</th>
+            <th>Name of Subject</th>
+            <th>Name of Lab</th>
+        </tr>
+        <tr>
+            <td>4KSO6</td>
+            <td>Data Communication & Networking Lab</td>
+            <td>OOP Lab Section II</td>
+        </tr>
+        <tr>
+            <td>4KSO7</td>
+            <td>Operating System Lab</td>
+            <td>OOP Lab Section I</td>
+        </tr>
+        <tr>
+            <td>4KSO8</td>
+            <td>Microprocessor & Assembly Language Programming Lab</td>
+            <td>DBMS Lab Section II</td>
+        </tr>
+        <tr>
+            <td>4KSO9</td>
+            <td>C Skill-II Lab</td>
+            <td>DBMS Lab Section I</td>
+        </tr>
+        <tr>
+            <td>4KSO6</td>
+            <td>Environmental Studies</td>
+            <td>Dr. R. M. Kharate</td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
